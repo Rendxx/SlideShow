@@ -31,7 +31,7 @@ API:
         - opts: 
             container:          container dom-elements of the frame (required)
             frame:              HTML-frame dom-elements in an array  (required)
-            controllers:        controller dom-elements in an array
+            controller:         controller dom-elements in an array
             next:               dom element of next-botton
             prev:               dom element of previous-botton
             activeClass:        css class name of active
@@ -101,10 +101,10 @@ $(function () {
             }
         };
 
-        var _controllerSetup = function (controllers, nextEle, preEle) {
-            if (controllers != null) 
-                for (var i = 0; i < controllers.length; i++) {
-                    html.controller[i] = $(controllers[i]);
+        var _controllerSetup = function (controller, nextEle, preEle) {
+            if (controller != null) 
+                for (var i = 0; i < controller.length; i++) {
+                    html.controller[i] = $(controller[i]);
                     html.controller[i].click({ idx: i }, function (e) {
                         that.goto(e.data.idx);
                     });
@@ -132,7 +132,7 @@ $(function () {
         var _init = function (opts) {
             _containerSetup(opts.container);
             _itemSetup(opts.frame);
-            _controllerSetup(opts.controllers, opts.next, opts.prev);
+            _controllerSetup(opts.controller, opts.next, opts.prev);
             if (opts.activeClass != null) activeClass = opts.activeClass;
             if (opts.autoSwap != null) autoSwap = opts.autoSwap;
 

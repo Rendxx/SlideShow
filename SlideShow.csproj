@@ -36,6 +36,7 @@
     <Content Include="README.md" />
     <Content Include="js\SlideShow.js.map" />
     <Content Include="js\SlideShow.min.js.map" />
+    <Content Include="API Document.md" />
     <None Include="test\sample.less" />
     <None Include="package.json" />
   </ItemGroup>
