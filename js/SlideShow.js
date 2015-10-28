@@ -3,8 +3,8 @@ Silde Show
 Copyright (c) 2014-2015 Dongxu Ren  http://www.rendxx.com/
 
 License: MIT (http://www.opensource.org/licenses/mit-license.php)
-Version: 2.0
-Update: 2015-09-14
+Version: 0.2.1
+Update: 2015-10-28
 
 Description:
     Enable user to show the HTML as a brief photo album.
