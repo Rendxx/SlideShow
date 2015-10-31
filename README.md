@@ -12,10 +12,10 @@ The elements you need to provide:
 And be care of the "position" css of your HTML-frames. Its value will be changed to "absolute".  
 PS: you need to use this library after HTML structure is ready.
    
+![preview](https://raw.githubusercontent.com/Rendxx/SlideShow/master/preview.png "Preview")
 
 *Sample: [http://www.rendxx.com/Lib/Sample/8](http://www.rendxx.com/Lib/Sample/8 "Sample")*  
 *Download: [Slide Show v0.2.1](https://github.com/Rendxx/SlideShow/releases/tag/0.2.1 "Download")*
-![preview](https://raw.githubusercontent.com/Rendxx/SlideShow/master/preview.png "Preview")
 
 ## Install
 Download the package from bower
